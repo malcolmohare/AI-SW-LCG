@@ -1,0 +1,24 @@
+{
+  "name": "aiswlcg",
+  "version": "1.0.0",
+  "description": "Star Wars LCG Single Player with AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malcolmohare/AI-SW-LCG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malcolmohare/AI-SW-LCG/issues"
+  },
+  "homepage": "https://github.com/malcolmohare/AI-SW-LCG#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-typescript": "^2.10.0"
+  }
+}
