@@ -31,13 +31,13 @@ class PlayingField {
 		this.commandDeck = new Deck(commandCards);
     }
 	
-	drawObjective() {
+	drawObjective() : Card {
 		if (this.objectiveDeck.hasCards()) {
 			return this.objectiveDeck.draw();
 		}
 	}
 	
-	drawCard() {
+	drawCard() : Card {
 		if (this.commandDeck.hasCards()) {
 			return this.commandDeck.draw();
 		}
@@ -51,7 +51,6 @@ class PlayingField {
 	addObjective(card : Card) {
 		this.objectives.push(card);
 	}
-	
 	addUnit(card : Card) {
 		this.units.push(card);
 	}

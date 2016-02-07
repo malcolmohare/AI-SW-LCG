@@ -1,2 +1,7 @@
-enum CardType { Event = 1, Objective, Unit, Enhancement };
+enum CardType {
+	Event = 1,
+	Objective,
+	Unit,
+	Enhancement
+};
 export = CardType;
