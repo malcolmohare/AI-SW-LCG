@@ -4,5 +4,6 @@ enum CardFaction {
 	LightRebelAlliance,
 	LightNeutral,
 	DarkImperialNavy,
-	DarkNeutral};
+	DarkNeutral
+};
 export = CardFaction;
